@@ -1,0 +1,106 @@
+body{
+    padding : 0;
+    margin: 0;
+    font-family: sans-serif;
+    background : url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1msG11.img);
+    background-size: cover;
+    
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50% , -50%);
+    width: 350px;
+    height: 420px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    box-sizing: border-box;
+
+
+}
+
+h2{
+color: white;
+text-align: center;
+margin-top: 90px;
+
+}
+img[alt="img"]{
+    position: absolute;
+    bottom: 310px;
+    left: 54px;
+    scale: 0.5;
+ 
+}
+
+input[type="text"],[type="password"]{
+    position : absolute;
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid blueviolet;
+    background: linear-gradient(45deg,#2193f3,#ff4685);
+    padding: 5px;
+    color: white;
+
+}
+
+input[type="text"]{
+    top: 140px;
+    left: 50px;
+
+}
+input:focus{
+    background: skyblue;
+    outline: none;
+
+}
+
+[type="password"]{
+    top: 210px;
+    left: 50px;
+
+}
+::placeholder{
+    color: white;
+}
+
+input[value="Login"]{
+    position: absolute;
+    top: 305px;
+    left: 110px;
+    width: 130px;
+    height: 35px;
+    background: blueviolet;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 15px;
+    font-size: 20;
+
+}
+
+input[value="Login"]hover{
+    background : white;
+    color: blueviolet;
+
+}
+
+p{
+    position: absolute;
+    top: 360px;
+    left: 50px;
+    color: white;
+    cursor: pointer;
+
+}
+
+p:hover{
+    color: #72c9ff;
+
+}
+
+
+
